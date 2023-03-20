@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PEKA</title>
+	<link rel="stylesheet" href="assets/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<script src="assets/respon2.js"></script>
+	<header>
+		<img class=headline src="assets/images/dailynews.png" alt="The Bogor Daily">
+		<nav>
+			<div id="sideMenu" class="sidemenu topnav">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<a href="#tipeBerita">Headline</a>
+				<a href="#konsep">Konsep</a>
+				<a href="#tema">Tema</a>
+			</div>
+			<a id="main">
+				<button class="openbtn" onclick="openNav()">&#9776; Menu</button>
+			</a>
+			<a id="tagline">Official Bogor News Website
+				<span class="edition"><b> &#124; </b> MEY 2022 <b> &#124; </b> EDITION XIII
+				</span>
+			</a>
+			<div id="searchContainer">
+    			<form>
+      			<input type="text" placeholder="Search.." name="search">
+      			<button type="submit">&#x260C;</button>
+    			</form>
+    		</div>
+			<div id="hline"></div>
+		</nav>
+	</header>
+	<main>
+		<div id="boxHeadline">
+			<img class="imghead" alt="corona-bogor" src="assets/images/corona2.jpg">
+		</div>
+		<div id="boxHeadline">
+			<div id="articleHead">
+				<a id="tipeBerita"> Headline </a>
+				<h1 class="headTitle">Pasien Positif Covid-19 di Kota Bogor Kembali Bertambah 7 Orang</h1>
+				<a class="date"> 20 May 2022 / Yusup Almadani </a>
+				<p class="isi">Jumlah kasus positif Covid-19 di Kota Bogor, belum menunjukan adanya penurunan. Berdasarkan data dari Pemerintah Kota Bogor, sudah 65 orang meninggal selama Pandemi Covid-19.Sedangkan yang berstatus Pasien Dalam Pengawasan 50 orang dan status positif Virus Corona 15 orang. Perkembangan kasus Covid-19 di Kota Bogor yang sempat landai, kembali naik pada Selasa (19/5/2020).<span id="dots">...</span><span id="more"><br><br>Jumlah pasien Positif Covid-19 bertambah tujuh orang. Tidak hanya saat ini, beberapa pasien Positif Covid-19 masih menjalani perawatan di rumah sakit. Kepala Dinas Kesehatan Kota Bogor Dr Sri Nowo Retno mengatakan bahwa dari analisa klinis tren Covid-19 tidak lagi 14 hari. Namun bisa sampai lebih dari 28 hari.<br><br> Bahkan seorang pasien terkonfirmasi positif Covid-19 yang menjalani perawatan sejak awal sampai saat ini masih dinyatakan positif. “Itu masih positif terus swabnya delapan kali swab masih positif, pokoknya ada banyak bukan cuma satu pasien,” katanya. “Kayanya jadi ada berbagai sebab ya mungkin dari tren analisa klinisnya sudah tidak 14 hari lagi. Atau bisa re-infeksi,” ujarnya.<br><br> Dr Retno mengatakan bahwa saat ini pasien tersebut masih menjalani isolasi di rumah sakit. Sementara itu terkait update perkembangan kasus Covid-19 pada Senin (18/5/2020) pasien terkonfirmasi positif covid bertambah satu. “Data hari ini nambah satu dari kelompok PDP terkonfirmasi positif. Jadi statusnya pindah ke konfirmasi. Jadi total 107. Dan ada satu pasien terkonfirmasi positif meninggal, satu orang,” ujarnya.
+				</span></p>
+				<button onclick="expand()" id="moreButton">Read more</button>
+			</div>
+		</div>
+		<aside>
+			<div id="konsep" class="profile">Konsep</div>
+			<img class="imgAuthor" alt="Author" src="assets/images/pp.jpg">
+			<div class="inf">Yusup Almadani</div>
+			<div class="inf">New Learner | Tulungagung | 17 Februari 1997</div>
+			<div class="quote"><b>"Konsep design website saya buat semirip mungkin dengan koran cetak khas hitam putih. Karya ini masih jauh dari sempurna"</b></div>
+		</aside>
+		<div id="boxNews">
+			<div id="article1" class="box first">
+				<h2 class="title">Kelaparan Warga Cijeruk Makan Terigu, Ini Faktanya</h2>
+				<a class="date"> 19 May 2022 / Muhammad Hilmi </a>
+				<p class="isi">Kapolres Bogor AKBP, Roland Ronaldy bergerak cepat setelah mendapat informasi adanya warga di Kecamatan Cijeruk yang mengalami kelaparan dan hanya memakan tepung terigu saja.<span id="dots1">...</span><span id="more1"> Melalui Kapolsek Cijeruk Kompol Nurahim bersama dengan Danramil 2123 Cijeruk Mayor Inf Suparno bersama dengan Kepala Desa Cipicung E. Suherli, melakukan pengecekan dan klarifikasi terkait pemberitaan di media yang menyebutkan bahwa adanya seorang warga asal Kampung Totopong RT 05/01, Desa Cipicung, Kecamatan Cijeruk yang mengalami kelaparan dan hanya makan tepung selama pandemi Covid-19.<br>“Kami melalui Kapolsek Cijeruk bersama Muspika telah melakukan pengecekan terhadap pemberitaan tersebut, dan didapati bahwa apa yang diberitakan tersebut adalah tidak benar. Keluarga Ibu Leni (30), tidak mengalami kelaparan” ujar Roland.”Kami pun bersama Koramil dan Muspika Cijeruk turut menyalurkan bantuan sembako dan uang santunan untuk membantu warga masyarakat. Dan berdasarkan hasil pengecekan yang dilakukan bersama bahwa keluarga Ibu Leni merupakan keluarga yang terdata menerima dana bantuan dari Dinas Sosial dan sudah tersalurkan dengan baik sesuai alokasinya”, tukasnya.</span></p>
+				<button onclick="expand1()" id="moreButton1">Read more</button>
+			</div>
+			<div id="vline1" class="box line"></div>
+			<div id="article2" class="box second">
+				<h2 class="title">Pasang Logo Stiker Angkutan Terbatas Palsu, 4 Bus Ini Diamankan Petugas</h2>
+				<a class="date"> 20 May 2022 / Yasmin Bahroni </a>
+				<p class="isi">Jajaran Direktorat Lalu Lintas Polda Metro Jaya mengamankan 4 bus berstiker angkutan terbatas palsu dengan logo stiker Kementerian Perhubungan (Kemenhub). Bus ini diamankan oleh Satuan Patroli Pengawal (Satpatwal) saat menggelar patroli di Cibubur<span id="dots2">...</span><span id="more2">, Jakarta Timur, pada Rabu dini hari sekitar pukul 01.00 WIB. “Di depan Bumi Perkemahan Cibubur, melihat bus berstiker tersebut melintas. Kemudian bus tersebut diberhentikan untuk pemeriksaan,” kata Dirlantas Polda Metro Jaya, Kombes Pol Sambodo Purnomo Yogo. <br>Saat dicegat polisi, kondisi bus dalam keadaan kosong. Pengakuan dari sopir, ia baru kembali dari Solo, Jawa Tengah usai mengantar penumpang dan bermaksud kembali ke pool. Kendati demikian, Sambodo belum bisa memastikan apakah penumpang yang diangkut ke Solo tersebut merupakan pemudik atau warga berkepentingan lain. Saat ini hal tersebut masih dalam proses penyelidikan. <br>Sementara itu, berdasarkan keterangan sopir bus, stiker angkutan terbatas yang ada di busnya itu tidak didapat dari hasil membeli. “Melainkan didapatkan dari pihak EO (event organizer) yang sebelumnya menyewa bus untuk angkutan pekerja,” ucap Sambodo. Petugas masih menyelidiki pihak EO pemberi stiker tersebut. Sementara, 4 bus berstiker palsu sudah diamankan guna kepentingan penyelidikan.</span></p>
+				<button onclick="expand2()" id="moreButton2">Read more</button>
+			</div>
+			<div id="vline2" class="box line2"></div>
+			<div id="article3" class="box third">
+				<h2 class="title">Antisipasi Pemudik Nakal, Ruang Isolasi Disiapkan</h2>
+				<a class="date"> 19 May 2020 / Roriatullah </a>
+				<p class="isi">Wali Kota Bogor Bima Arya meninjau dua titik RW Siaga di kawasan Tanah Sareal dan Bogor Barat, Kamis pagi. Peninjauan ini dilakukan untuk mengetahui kesiapan wilayah dalam mengantisipasi arus mudik ke Kota Bogor.<span id="dots3">...</span><span id="more3"> “Saya mengecek bagaimana di wilayah, terutama di RT/RW, bisa mengantisipasi arus mudik. Kebijakan Pemkot melarang mudik keluar dan masuk. Tetapi kalaupun ada yang bandel dan nakal kita harus bisa mengantisipasinya,” ungkap Bima Arya. Ia mencontohkan di RW 3, Jalan Ahmad Yani, Tanah Sareal, pemuda setempat secara gotong royong menerapkan RW Siaga dengan sistem piket sebanyak 10 orang per harinya. “Mereka punya satu sistem di mana kalau nekat mudik harus mengisi formulir kemudian ada sistem isolasi 14 hari,” jelasnya. <br>Selain itu, warga di sini bahu membahu menyediakan dapur umum untuk memproduksi makanan siap santap kemudian dibagikan kepada keluarga kurang mampu terdampak Covid-19. Bima Arya kemudian meluncur ke RW Siaga di RW 08 Komplek Pertanian, Menteng, Bogor Barat. “Di sini juga sistemnya bagus, warga menerapkan sistem pintu keluar masuk area satu pintu. Pintu lain ditutup. Bahkan RW 08 ini memiliki ruangan khusus isolasi. Jadi, bagi yang nakal, saudaranya di bawa ke sini harus isolasi di situ (balai RW) selama 14 hari,” terang dia. <br>Warga juga membangun lumbung pangan, yang dikumpulkan swadaya baik dari warga setempat maupun bantuan dari masyarakat lain untuk kemudian disebarkan kepada warga yang membutuhkan atau terdampak Covid-19. “Saya meminta agar semua RT dan RW lainnya ikut siaga, mengantisipasi para pemudik yang membandel ini supaya tidak membawa virus masuk ke kota Bogor,” katanya. Sementara itu, Ketua RW 08 Menteng, Bogor Barat, Zakaria mengatakan, pengetatan tersebut sudah dilakukan sejak pertengahan Maret 2020 untuk melindungi warganya dari penyebaran virus Corona. <br>“Untuk tamu yang masuk ke RW 08 wajib menggunakan masker dan mencuci tangan di pintu gerbang RW 8. Terus di cek suhu tubuhnya, terus mengisi buku tamu untuk kontrol kita. Kalau penghuni, cukup cuci tangan dan pakai masker. Tapi sejak ada larangan mudik kami tambahkan ruang isolasi khusus ini,” jelasnya. “Tempat isolasi itu sengaja kita bikin bagi para saudara atau kerabat dari warga yang nekat mudik ke sini. Semoga tidak terpakai ya. Kami juga imbau kepada warga yang ada di RW 8 untuk tahun sekarang agar saudaranya dari luar Kota Bogor tidak datang dulu ke sini. Misalkan ada yang nekat, kita tempatkan di tempat isolasi yang tadi,” pungkasnya.</span></p>
+				<button onclick="expand3()" id="moreButton3">Read more</button>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<p id="tema"> "Bogor Daily Post" (Karena deadline dekat, saya upload web latihan saya dulu mohon maaf) &#169; Yusup Almadani </p>
+	</footer>
+</body>
+
+</html>
